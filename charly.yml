@@ -1,7 +1,7 @@
 version: 2026.232.0520
 pmtiles-viewer:
     candy:
-        version: 2026.144.1443
+        version: 2026.243.0100
         description: |
             Visual PMTiles archive inspector served as a static SPA on port 8001 (host 28001)
             The protomaps/PMTiles TypeScript SPA — the same code deployed at
@@ -14,7 +14,7 @@ pmtiles-viewer:
             build lands at /opt/pmtiles-viewer/build/index.html and the
             supervisord service serves it over HTTP with root-relative assets.
         require:
-            - '@github.com/opencharly/layer-supervisord:v2026.235.2056'
+            - '@github.com/opencharly/layer-supervisord:v2026.240.0121'
         distro:
             arch:
                 package:
